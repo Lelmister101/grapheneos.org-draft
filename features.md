@@ -15,5 +15,5 @@ Vanadium:
 - sensors access blocked from sites by default
 - Battery API stubbed, so sites cannot see the device's battery level
 - default search engine is DuckDuckGo
-- JIT toggle added to remove the browser's just-in-time compiler to reduce attack surface
+- JIT toggle added to disable the browser's just-in-time compiler, which reduces attack surface
 - -fstack-protector-strong enabled, adding more stack canaries than normal Chromium

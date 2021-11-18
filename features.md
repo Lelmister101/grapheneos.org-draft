@@ -16,4 +16,4 @@ Vanadium:
 - Battery API stubbed, so sites cannot see the device's battery level
 - default search engine is DuckDuckGo
 - JIT toggle added to disable the browser's just-in-time compiler, which reduces attack surface
-- -fstack-protector-strong enabled, adding more stack canaries than normal Chromium
+- -fstack-protector-strong enabled, adding more stack canaries than normal Chromium, making [ROP attacks](https://en.wikipedia.org/wiki/Return-oriented_programming) harder
